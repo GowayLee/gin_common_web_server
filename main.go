@@ -4,9 +4,8 @@ import (
 	"ewa_admin_server/core"
 	"ewa_admin_server/global"
 
-	"go.uber.org/zap"
-
 	"github.com/gin-gonic/gin"
+	"go.uber.org/zap"
 )
 
 const AppMode = "debug" // 运行环境，主要有三种：debug、test、release
